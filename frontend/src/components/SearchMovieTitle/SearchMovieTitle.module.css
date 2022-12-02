@@ -1,0 +1,73 @@
+.mainContainer{
+    width : 100%;
+    color : #fff;
+}
+
+.searchedMovieContainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.imageContainer{
+    width : 40%;
+    text-align: center;
+    align-self: flex-end;
+}
+
+.movieRound{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    align-content: center;
+    object-fit: cover;
+    background-color: #fff;
+}
+
+.movieDetails{
+    width: 60%;
+}
+
+.movieName{
+    font-size: 40px;
+}
+
+.genresList{
+    margin-top: -30px;
+    margin-bottom: 30px;
+    height : 30px;
+}
+
+.genresList span{
+    margin-right: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.movieOverview{
+    width : 700px;
+    margin-bottom: 40px;
+    height: 130px;
+    overflow: scroll;
+}
+
+.movieOverview::-webkit-scrollbar{
+    display: none;
+}
+
+.watchListButton{
+    background-color: #fff;
+    color: #e50914;
+    padding : 15px 75px;
+    outline-color: #fff;
+    border-radius: 10px;
+    text-transform: capitalize;
+    font-weight: bolder;
+    font-size: 15px;
+    border: 2px solid #fff;
+    cursor: pointer;
+}
+
+.watchListButton:hover{
+    background-color: #e50914;
+    color: #fff;
+}

@@ -1,0 +1,11 @@
+.mainContainer{
+    height: 100vh;
+    background-color: #e50914;
+    position: relative;
+}
+
+.loader{
+    position : absolute;
+    top: 50%;
+    left: 50%;
+}

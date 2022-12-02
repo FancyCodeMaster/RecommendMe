@@ -1,0 +1,83 @@
+.mainContainer{
+    height: 100vh;
+    background-color: #e50914;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e50914;
+}
+
+
+.loginCard{
+    /* height : 90vh; */
+    width : 450px;
+    max-width: 500px;
+    background-color: #fff;
+    border : 1px solid #fff;
+    border-radius: 8px;
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+
+.logoTitle{
+    font-size: 20px;
+    font-weight: bolder;
+    color: #e50914;
+    margin-left : 5%;
+}
+
+.loginCard h2{
+    margin-bottom: 20px;
+    width : 90%;
+    margin-left : 5%;
+    margin-right: 5%;
+}
+
+.continueWithGoogle{
+    width : 90%;
+    margin-left : 5%;
+    margin-right: 5%;
+    text-align: center;
+    border : 1px solid #e50914;
+    padding : 7px 0;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    font-size: 13px;
+}
+
+.continueWithGoogle:hover{
+    background-color: #e50914;
+    color: #fff;
+    cursor: pointer;
+}
+
+.horizontalOr{
+    display: flex;
+    align-items: center;
+    width : 90%;
+    margin : 15px 5%;
+    color: #e50914;
+    font-size: 15px;
+}
+
+
+
+.noAccount{
+    width: 90%;
+    margin: 10px 5%;
+    text-align: center;
+}
+
+.signUp{
+    text-decoration: none;
+    color : #e50914;
+    margin-left: 5px;
+}
+
+.signUp:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}

@@ -1,0 +1,15 @@
+.loginButton , .submitButton{
+    width: 90%;
+    margin : 10px 5%;
+    border: 1px solid #e50914;
+    padding : 8px 0;
+    background-color: #e50914;
+    color : #fff;
+    border-radius: 4px;
+    opacity: 0.9;
+}
+
+.loginButton:hover , .submitButton:hover{
+    opacity: 1.0;
+    cursor: pointer;
+}

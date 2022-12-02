@@ -1,0 +1,113 @@
+.mainContainer{
+    height : 100vh;
+    width : 100vw;
+    background-color : #e50914;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signUpCard{
+    /* height : 85vh; */
+    width : 450px;
+    max-width: 500px;
+    background-color: #fff;
+    border : 1px solid #fff;
+    border-radius: 8px;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    overflow: hidden;
+}
+
+.logoTitle{
+    font-size: 20px;
+    font-weight: bolder;
+    color: #e50914;
+    margin-left : 5%;
+}
+
+.signUpHeading{
+    color: #e50914;
+    margin-bottom: 20px;
+    width : 90%;
+    margin-left : 5%;
+    margin-right: 5%;
+}
+
+
+
+.continueWithGoogle{
+    width : 90%;
+    margin-left : 5%;
+    margin-right: 5%;
+    text-align: center;
+    border : 1px solid #e50914;
+    padding : 7px 0;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    font-size: 13px;
+    color: #e50914;
+}
+
+.continueWithGoogle:hover{
+    background-color: #e50914;
+    color: #fff;
+    cursor: pointer;
+}
+
+.horizontalOr{
+    display: flex;
+    align-items: center;
+    width : 90%;
+    margin : 15px 5%;
+    color: #e50914;
+    font-size: 15px;
+}
+
+.noAccount{
+    width: 90%;
+    margin: 25px 5%;
+    text-align: center;
+    color: #e50914;
+}
+
+.signIn{
+    text-decoration: none;
+    color : rgba(221, 2, 2, 0.788);
+    margin-left: 10px;
+}
+
+.termsOfService , .privacyPolicy{
+    text-decoration: none;
+    color : rgba(221, 2, 2, 0.788);
+}
+
+.signIn:hover , .termsOfService:hover , .privacyPolicy:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.signupTerms{
+    width : 90%;
+    margin : 25px 5%;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.goback{
+    width : 90%;
+    margin : 15px 5%;
+    cursor : pointer;
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    vertical-align: middle;
+}
+
+.goback:hover{
+    background-color: #ccc;
+    width : 50%;
+}

@@ -1,0 +1,59 @@
+.mainContainer{
+    width : 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mainContainer div{
+    color : #fff;
+    display: flex;
+    justify-content: space-between;
+    /* width: 150px; */
+    gap: 20px;
+}
+
+.logoTitle{
+    font-size: 20px;
+    font-weight: bolder;
+    color: #fff;
+    text-decoration: none;
+}
+
+.inputBox{
+    width : 400px;
+    padding : 10px 15px;
+    padding-left: 50px;
+    border-radius: 15px;
+    /* text-align: center; */
+    outline-color: #e50914;
+    border : 1px solid #e50914;
+    color: #e50914;
+    font-size: 15px;
+    text-transform: capitalize;
+    position : relative;
+    z-index: 100;
+}
+
+.inputBox::placeholder{
+    text-align: center;
+    color: #e50914;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+
+.signInButton , .watchlistButton , .logoutButton{
+    cursor: pointer;
+    padding-bottom: 8px;
+}
+
+.signInButton:hover , .watchlistButton:hover , .logoutButton:hover{
+    text-decoration: underline;
+}
+
+.searchIcon{
+    color: #e50914;
+    position: absolute;
+    left : 36%;
+}
+

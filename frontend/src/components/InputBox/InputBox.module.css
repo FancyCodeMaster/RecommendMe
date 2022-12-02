@@ -1,0 +1,24 @@
+.inputBox h4{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5px;
+    font-size: 15px;
+    color: #e50914;
+}
+
+.emailBox , .passwordBox , .nameBox{
+    width : 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border : 1px solid gray;
+    padding : 8px 0;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    padding-left: 15px;
+    outline: none;
+}
+
+.emailBox:focus , .passwordBox:focus , .nameBox:focus{
+    border-color: #e50914;
+}

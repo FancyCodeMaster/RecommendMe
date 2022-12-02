@@ -1,0 +1,56 @@
+.mainContainer{
+    background-color: #e50914;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.watchListContainer{
+    height: 90vh;
+    width : 450px;
+    max-width: 450px;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.watchListContainer::-webkit-scrollbar{
+    display: none;
+}
+
+.watchListHeading{
+    color: #e50914;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.logoTitle{
+    font-size: 20px;
+    font-weight: bolder;
+    color: #e50914;
+    text-decoration: none;
+    width: 100%;
+    margin-left: 5%;
+    cursor: pointer;
+}
+
+.clearWatchListButton{
+    border : 1px solid #e50914;
+    background-color: #e50914;
+    color : #fff;
+    align-self: center;
+    width : 20%;
+    margin : 0 40%;
+    text-align: center;
+    padding : 8px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.clearWatchListButton:hover{
+    background-color: #fff;
+    color: #e50914;
+}

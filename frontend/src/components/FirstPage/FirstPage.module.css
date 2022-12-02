@@ -1,0 +1,25 @@
+.mainContainer{
+    background-color: #E50914;
+    height: 100vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+}
+
+.mainContainer::-webkit-scrollbar{
+    display: none;
+}
+
+.selectMoviesText{
+    text-align: center;
+    color: #fff;
+}
+
+.moviesContainer{
+    width : 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px 30px;
+}
