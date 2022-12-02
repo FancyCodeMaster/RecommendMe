@@ -13,6 +13,8 @@
 backend/movies.csv
 backend/movies.pkl
 backend/similarity_score.pkl
+backend/config.py
+backend/models.py
 .vscode
 env
 # misc
